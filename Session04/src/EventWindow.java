@@ -12,8 +12,7 @@ public class EventWindow extends JFrame  {
 	public EventWindow(String title,
 			int w, int h, Color bg) {
 		super(title);
-//		addWindowListener(l);
-		
+
 		
 		Container c = getContentPane();
 		c.setBackground(bg);
@@ -42,6 +41,8 @@ public class EventWindow extends JFrame  {
 	}
 	public static void main(String[]a ) {
 		new EventWindow("test", 800,300, Color.BLACK);
+		new EventWindow("test", 800,200, Color.WHITE);
+		new EventWindow("test", 800,100, Color.BLUE);
 	}
 }
 
